@@ -67,9 +67,13 @@ p {
 
 /* All Section styles
 ------------------------------------- */
-#testimonial, #blog, #counter, #contact {
-   	padding-top: 120px;
-  	padding-bottom: 120px;
+#testimonial, #contact {
+   	padding-top: 12px;
+  	padding-bottom: 12px;
+}
+#blog{
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 #about h3 {
@@ -257,7 +261,7 @@ p {
 
 /* Counter section styles
 /* ========================================== */
-#counter {
+/*#counter {
    background: url('../images/counter-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -276,12 +280,12 @@ p {
   color: #ffffff;
   letter-spacing: 2px;
 }
-
+*/
 
 /* contact section styles
 /* ========================================== */
 #contact {
-  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/contact-bg2.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
